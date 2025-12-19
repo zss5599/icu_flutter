@@ -1,7 +1,7 @@
 name: icu_flutter
 description: "A new Flutter project."
 version: 0.0.1+1
-homepage:
+homepage: https://github.com/zss5599/icu_flutter
 
 environment:
   sdk: ^3.9.2

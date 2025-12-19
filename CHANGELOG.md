@@ -1,3 +1,6 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Initial release
+* Support for converting PNG images to LVGL format
+* Support for converting LVGL format data back to PNG images
+* Android and iOS platform support
