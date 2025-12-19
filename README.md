@@ -1,15 +1,13 @@
-# icu_flutter
+本工程使用flutter实现了ICU工具（ https://github.com/W-Mai/icu ）的功能。可用于Android和ios
 
-A new Flutter project.
+---------------------------------------------------------------
+使用很简单：
+final _icuConverter = ICUConverter();
+// 转换PNG到LVGL
+final lvglData = _icuConverter.convertPngToLvgl(pngData);
 
-## Getting Started
+// 转换LVGL到PNG
+final pngData = _icuConverter.convertLvglToPng(lvglData);
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+![img_v3_02t4_062417ff-629e-4d8b-8d99-b6786ae0418g](https://github.com/user-attachments/assets/8234e51c-889c-4675-9318-cf0e9436c7c5)
