@@ -69,7 +69,7 @@ class _MyAppState extends State<MyApp> {
       final pngData = Uint8List.view(imageData.buffer);
 
       // 转换PNG到LVGL
-      final lvglData = _icuConverter.convertPngToLvgl(pngData, colorFormat: 0x0A);
+      final lvglData = _icuConverter.convertPngToLvgl(pngData);
 
       if (lvglData != null) {
         // 保存LVGL数据到文件
