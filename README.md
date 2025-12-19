@@ -1,12 +1,17 @@
 本工程使用flutter实现了ICU工具（ https://github.com/W-Mai/icu ）的功能。可用于Android和ios
 
 ---------------------------------------------------------------
+
 使用很简单：
+
 final _icuConverter = ICUConverter();
+
 // 转换PNG到LVGL
+
 final lvglData = _icuConverter.convertPngToLvgl(pngData);
 
 // 转换LVGL到PNG
+
 final pngData = _icuConverter.convertLvglToPng(lvglData);
 
 
