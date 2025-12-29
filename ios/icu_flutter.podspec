@@ -23,13 +23,6 @@ A new Flutter project.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.swift_version = '5.0'
 
-  # Copy dSYM files to the final app bundle for App Store submission
-  s.script_phase = {
-    :name => 'Copy ICU dSYM Files',
-    :script => 'find "${PODS_ROOT}/icu_flutter/Frameworks" -name "*.dSYM" -type d -exec cp -R {} "${DWARF_DSYM_FOLDER_PATH}" \;',
-    :execution_position => :after_compile
-  }
-
   # If your plugin requires a privacy manifest, for example if it uses any
   # required reason APIs, update the PrivacyInfo.xcprivacy file to describe your
   # plugin's privacy impact, and then uncomment this line. For more information,
