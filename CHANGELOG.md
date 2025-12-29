@@ -1,3 +1,8 @@
+## 0.0.2
+
+* Add dSYM files for iOS App Store submission
+* Fix archive error related to missing dSYM for libflutter_icu.dylib
+
 ## 0.0.1
 
 * Initial release
