@@ -17,6 +17,7 @@ A new Flutter project.
   s.dependency 'Flutter'
   s.platform = :ios, '13.0'
   s.vendored_libraries = 'Frameworks/libflutter_icu.dylib'
+  s.preserve_paths = 'Frameworks/libflutter_icu.dylib.dSYM'
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
