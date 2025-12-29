@@ -1,6 +1,6 @@
 name: icu_flutter
 description: "A Flutter plugin for converting between PNG and LVGL image formats using ICU (Image Converter Utilities)."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/zss5599/icu_flutter
 
 environment:
